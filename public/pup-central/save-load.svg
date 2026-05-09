@@ -1,0 +1,25 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#05030B"/>
+  <text x="104" y="126" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="62" font-weight="700">Save and load flow</text>
+  <text x="104" y="176" fill="#BBA9DE" font-family="Space Grotesk, Arial, sans-serif" font-size="24">The game supports plain-text save files so a session can continue later.</text>
+  <rect x="104" y="246" width="572" height="522" rx="28" fill="#0F0A18" stroke="rgba(190,160,255,0.18)"/>
+  <text x="140" y="306" fill="#A77EFF" font-family="Space Mono, monospace" font-size="22">README + main.cpp behavior</text>
+  <text x="140" y="362" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="22">data/Barry.txt</text>
+  <text x="140" y="404" fill="#CABAE8" font-family="Space Mono, monospace" font-size="20">Shiba Barry 4 82 36 71</text>
+  <rect x="140" y="450" width="500" height="238" rx="22" fill="#171126"/>
+  <text x="172" y="500" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="21">ifstream inputFile(filename);</text>
+  <text x="172" y="538" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="19">getline(inputFile, attributes)</text>
+  <text x="172" y="574" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="19">stringstream puppystats(attributes)</text>
+  <text x="172" y="610" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">type  name  level  health</text>
+  <text x="172" y="640" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">hunger  happiness</text>
+  <text x="172" y="676" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">restore matching breed object</text>
+  <rect x="746" y="246" width="550" height="522" rx="28" fill="#0F0A18" stroke="rgba(190,160,255,0.18)"/>
+  <text x="784" y="312" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="34" font-weight="700">Loaded session</text>
+  <rect x="784" y="360" width="474" height="126" rx="20" fill="#171126"/>
+  <text x="816" y="408" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="21">Type: Shiba    Name: Barry</text>
+  <text x="816" y="444" fill="#CABAE8" font-family="Space Mono, monospace" font-size="18">Level 4   Health 82</text>
+  <text x="816" y="474" fill="#CABAE8" font-family="Space Mono, monospace" font-size="18">Hunger 36   Happiness 71</text>
+  <text x="784" y="548" fill="#A77EFF" font-family="Space Mono, monospace" font-size="22">save path</text>
+  <text x="784" y="598" fill="#F4EEFF" font-family="Space Mono, monospace" font-size="24">Barry.txt</text>
+  <text x="784" y="650" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="23">Resume a saved puppy from plain-text data.</text>
+</svg>

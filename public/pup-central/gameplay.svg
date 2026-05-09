@@ -1,0 +1,27 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#04020A"/>
+  <rect x="72" y="62" width="1256" height="776" rx="28" fill="#0B0712" stroke="rgba(190,160,255,0.18)"/>
+  <rect x="104" y="104" width="1192" height="692" rx="22" fill="#0E0B17"/>
+  <circle cx="140" cy="140" r="8" fill="#FF7F96"/>
+  <circle cx="170" cy="140" r="8" fill="#FFD66B"/>
+  <circle cx="200" cy="140" r="8" fill="#6BE08C"/>
+  <text x="238" y="148" fill="#B7A8D8" font-family="Space Mono, monospace" font-size="22">pup_central terminal</text>
+  <text x="138" y="220" fill="#A77EFF" font-family="Space Mono, monospace" font-size="28">$ ./pup_central</text>
+  <text x="138" y="280" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="28">Welcome to Pup Central!</text>
+  <text x="138" y="326" fill="#CABAE8" font-family="Space Mono, monospace" font-size="23">Max your puppy's level before health reaches 0.</text>
+  <text x="138" y="402" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="26">Please pick an option to start the game</text>
+  <text x="138" y="450" fill="#B1F5C6" font-family="Space Mono, monospace" font-size="28">A : Load Game</text>
+  <text x="138" y="494" fill="#B1F5C6" font-family="Space Mono, monospace" font-size="28">B : New Game</text>
+  <text x="138" y="560" fill="#A77EFF" font-family="Space Mono, monospace" font-size="28">&gt; B</text>
+  <rect x="846" y="228" width="360" height="360" rx="24" fill="#151022" stroke="rgba(190,160,255,0.16)"/>
+  <text x="880" y="282" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="42" font-weight="700">Main loop</text>
+  <text x="880" y="346" fill="#CABAE8" font-family="Space Grotesk, Arial, sans-serif" font-size="28">Wash</text>
+  <text x="880" y="394" fill="#CABAE8" font-family="Space Grotesk, Arial, sans-serif" font-size="28">Play</text>
+  <text x="880" y="442" fill="#CABAE8" font-family="Space Grotesk, Arial, sans-serif" font-size="28">Feed</text>
+  <text x="880" y="490" fill="#CABAE8" font-family="Space Grotesk, Arial, sans-serif" font-size="28">Train</text>
+  <text x="880" y="538" fill="#CABAE8" font-family="Space Grotesk, Arial, sans-serif" font-size="28">Save and Quit</text>
+  <text x="138" y="676" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="34" font-weight="700">Session goal</text>
+  <text x="138" y="722" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="25">Start a new run or load a saved puppy, then balance care</text>
+  <text x="138" y="758" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="25">and training until you hit max level.</text>
+  <text x="138" y="794" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="25">If health drops to 0, the run ends.</text>
+</svg>

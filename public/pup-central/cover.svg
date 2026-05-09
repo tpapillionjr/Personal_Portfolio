@@ -1,0 +1,39 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#05030B"/>
+  <rect x="48" y="48" width="1304" height="804" rx="34" fill="url(#bg)" stroke="rgba(190,160,255,0.18)"/>
+  <circle cx="1118" cy="178" r="220" fill="url(#orb)" opacity="0.42"/>
+  <circle cx="1160" cy="164" r="8" fill="#D8C4FF"/>
+  <circle cx="1088" cy="232" r="5" fill="#A77EFF"/>
+  <circle cx="1218" cy="244" r="4" fill="#F0E6FF"/>
+  <text x="112" y="176" fill="#BEA8EA" font-family="Space Grotesk, Arial, sans-serif" font-size="30" letter-spacing="5">TERMINAL C++ GAME</text>
+  <text x="112" y="288" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="88" font-weight="700">Pup Central</text>
+  <text x="112" y="356" fill="#C9B8EB" font-family="Space Grotesk, Arial, sans-serif" font-size="31">A virtual pet game where every choice changes</text>
+  <text x="112" y="396" fill="#C9B8EB" font-family="Space Grotesk, Arial, sans-serif" font-size="31">your puppy's stats.</text>
+  <rect x="112" y="430" width="520" height="332" rx="26" fill="#0E0918" stroke="rgba(190,160,255,0.16)"/>
+  <text x="146" y="484" fill="#A77EFF" font-family="Space Mono, monospace" font-size="22">gameplay loop</text>
+  <text x="146" y="540" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="27">&gt; choose Shiba or Husky</text>
+  <text x="146" y="582" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="27">&gt; wash / play / feed / train</text>
+  <text x="146" y="624" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="24">&gt; manage health, hunger</text>
+  <text x="146" y="658" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="24">  and happiness</text>
+  <text x="146" y="700" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="24">&gt; reach max level before</text>
+  <text x="146" y="734" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="24">  health hits 0</text>
+  <rect x="700" y="430" width="540" height="232" rx="26" fill="#120B20" stroke="rgba(190,160,255,0.16)"/>
+  <text x="736" y="490" fill="#A77EFF" font-family="Space Mono, monospace" font-size="22">project stack</text>
+  <text x="736" y="544" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="30" font-weight="700">C++17</text>
+  <text x="736" y="588" fill="#CDBCEB" font-family="Space Grotesk, Arial, sans-serif" font-size="26">Inheritance</text>
+  <text x="736" y="624" fill="#CDBCEB" font-family="Space Grotesk, Arial, sans-serif" font-size="26">Virtual methods</text>
+  <text x="980" y="588" fill="#CDBCEB" font-family="Space Grotesk, Arial, sans-serif" font-size="26">Save files</text>
+  <text x="980" y="624" fill="#CDBCEB" font-family="Space Grotesk, Arial, sans-serif" font-size="26">Stat system</text>
+  <text x="112" y="786" fill="#A391C9" font-family="Space Grotesk, Arial, sans-serif" font-size="22">Shiba and Husky breeds, terminal choices, save data,</text>
+  <text x="112" y="818" fill="#A391C9" font-family="Space Grotesk, Arial, sans-serif" font-size="22">and a win condition at level 10.</text>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="80" x2="1320" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12091E"/>
+      <stop offset="1" stop-color="#09060F"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1118 178) rotate(90) scale(220)">
+      <stop stop-color="#A77EFF"/>
+      <stop offset="1" stop-color="#A77EFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

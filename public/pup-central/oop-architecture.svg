@@ -1,0 +1,41 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#04020A"/>
+  <text x="104" y="124" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="62" font-weight="700">Object-oriented structure</text>
+  <text x="104" y="176" fill="#BAA8DC" font-family="Space Grotesk, Arial, sans-serif" font-size="24">A shared base class drives stats and actions.</text>
+  <text x="104" y="210" fill="#BAA8DC" font-family="Space Grotesk, Arial, sans-serif" font-size="24">Breed-specific behavior is layered on top.</text>
+  <rect x="104" y="256" width="430" height="500" rx="30" fill="#100B19" stroke="rgba(190,160,255,0.18)"/>
+  <text x="138" y="312" fill="#A77EFF" font-family="Space Mono, monospace" font-size="24">include/puppy.h</text>
+  <text x="138" y="364" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="22">class Puppy {</text>
+  <text x="168" y="402" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="20">protected:</text>
+  <text x="198" y="436" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">string* name;</text>
+  <text x="198" y="468" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="17">int level, health, hunger,</text>
+  <text x="198" y="496" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="17">    happiness;</text>
+  <text x="168" y="542" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">virtual void wash();</text>
+  <text x="168" y="574" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">virtual void play();</text>
+  <text x="168" y="606" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">virtual void train();</text>
+  <text x="168" y="638" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">virtual void feed();</text>
+  <text x="168" y="670" fill="#C9B8EB" font-family="Space Mono, monospace" font-size="18">virtual void display() const;</text>
+  <text x="138" y="718" fill="#F7F2FF" font-family="Space Mono, monospace" font-size="22">};</text>
+  <rect x="684" y="304" width="284" height="150" rx="26" fill="#171126" stroke="rgba(190,160,255,0.16)"/>
+  <text x="762" y="366" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="42" font-weight="700">Puppy</text>
+  <text x="742" y="404" fill="#B9A7DC" font-family="Space Grotesk, Arial, sans-serif" font-size="24">base class</text>
+  <path d="M826 454V548" stroke="#8E63FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M826 548L714 620" stroke="#8E63FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M826 548L938 620" stroke="#8E63FF" stroke-width="4" stroke-linecap="round"/>
+  <rect x="600" y="620" width="220" height="126" rx="24" fill="#171126" stroke="rgba(190,160,255,0.16)"/>
+  <rect x="846" y="620" width="220" height="126" rx="24" fill="#171126" stroke="rgba(190,160,255,0.16)"/>
+  <text x="672" y="694" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="32" font-weight="700">Shiba</text>
+  <text x="916" y="694" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="32" font-weight="700">Husky</text>
+  <text x="646" y="732" fill="#BAA8DC" font-family="Space Grotesk, Arial, sans-serif" font-size="18">inherits + overrides</text>
+  <text x="894" y="732" fill="#BAA8DC" font-family="Space Grotesk, Arial, sans-serif" font-size="18">inherits + overrides</text>
+  <rect x="1112" y="256" width="174" height="470" rx="30" fill="#100B19" stroke="rgba(190,160,255,0.18)"/>
+  <text x="1136" y="310" fill="#A77EFF" font-family="Space Mono, monospace" font-size="18">core actions</text>
+  <text x="1136" y="368" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="23">wash()</text>
+  <text x="1136" y="414" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="23">play()</text>
+  <text x="1136" y="460" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="23">feed()</text>
+  <text x="1136" y="506" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="23">train()</text>
+  <text x="1136" y="552" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="23">display()</text>
+  <text x="1136" y="620" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="17">Shared interface.</text>
+  <text x="1136" y="648" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="17">Breed-specific</text>
+  <text x="1136" y="674" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="17">output.</text>
+</svg>

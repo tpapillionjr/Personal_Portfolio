@@ -1,0 +1,29 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#04020A"/>
+  <rect x="70" y="70" width="1260" height="760" rx="34" fill="url(#panel)" stroke="rgba(190,160,255,0.18)"/>
+  <text x="118" y="152" fill="#F4EEFF" font-family="Syne, Arial, sans-serif" font-size="72" font-weight="700">Pup Central at a glance</text>
+  <text x="118" y="206" fill="#BBA9DE" font-family="Space Grotesk, Arial, sans-serif" font-size="30">Terminal-based virtual pet game built in C++.</text>
+  <rect x="118" y="278" width="350" height="180" rx="28" fill="#151022"/>
+  <rect x="526" y="278" width="350" height="180" rx="28" fill="#151022"/>
+  <rect x="934" y="278" width="278" height="180" rx="28" fill="#151022"/>
+  <text x="152" y="338" fill="#A77EFF" font-family="Space Grotesk, Arial, sans-serif" font-size="22">core system</text>
+  <text x="152" y="390" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="30" font-weight="700">Game-state loop</text>
+  <text x="152" y="422" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="21">Health, hunger,</text>
+  <text x="152" y="452" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="21">happiness, level</text>
+  <text x="560" y="338" fill="#A77EFF" font-family="Space Grotesk, Arial, sans-serif" font-size="22">C++ structure</text>
+  <text x="560" y="390" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="30" font-weight="700">Inheritance + virtuals</text>
+  <text x="560" y="426" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="24">Puppy, Shiba, Husky</text>
+  <text x="968" y="338" fill="#A77EFF" font-family="Space Grotesk, Arial, sans-serif" font-size="22">save data</text>
+  <text x="968" y="390" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="30" font-weight="700">Text files</text>
+  <text x="968" y="426" fill="#BFAFDE" font-family="Space Grotesk, Arial, sans-serif" font-size="24">Resume later</text>
+  <rect x="118" y="518" width="1094" height="226" rx="30" fill="#100B19" stroke="rgba(190,160,255,0.16)"/>
+  <text x="160" y="584" fill="#A77EFF" font-family="Space Mono, monospace" font-size="22">actions</text>
+  <text x="160" y="638" fill="#F4EEFF" font-family="Space Grotesk, Arial, sans-serif" font-size="30">Wash   Play   Feed   Train   Save and Quit</text>
+  <text x="160" y="690" fill="#C7B6E7" font-family="Space Grotesk, Arial, sans-serif" font-size="27">Win by reaching level 10 before your puppy's health drops to zero.</text>
+  <defs>
+    <linearGradient id="panel" x1="100" y1="90" x2="1280" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12091E"/>
+      <stop offset="1" stop-color="#09060F"/>
+    </linearGradient>
+  </defs>
+</svg>
