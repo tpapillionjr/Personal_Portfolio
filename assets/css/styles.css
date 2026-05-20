@@ -977,6 +977,26 @@
       padding: 0.8rem 1rem;
     }
 
+    .project-actions--split {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: end;
+    }
+
+    .project-link-stack {
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.7rem;
+      width: max-content;
+      justify-self: end;
+    }
+
+    .project-link-stack .card-link {
+      margin-top: 0;
+    }
+
     .skills-carousel {
       position: relative;
       overflow: hidden;
@@ -1999,6 +2019,10 @@
         gap: 0.85rem;
       }
 
+      .project-actions--split {
+        display: flex;
+      }
+
       .card-link {
         margin-top: 0;
         min-height: 2.95rem;
@@ -2073,6 +2097,11 @@
       .project-actions .ghost-button,
       .project-actions .card-link {
         width: 100%;
+      }
+
+      .project-link-stack {
+        margin-left: 0;
+        align-items: stretch;
       }
 
       .about-connect__copy {
