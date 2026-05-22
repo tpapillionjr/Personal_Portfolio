@@ -1,3 +1,7 @@
+    import { inject } from "@vercel/analytics";
+
+    inject();
+
     const pageScroll = document.getElementById("page-scroll");
     const pageScrollbar = document.getElementById("page-scrollbar");
     const pageScrollbarThumb = document.getElementById("page-scrollbar-thumb");
