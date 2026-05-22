@@ -28,14 +28,18 @@ Personal_Portfolio/
 │   └── contact.js
 ├── assets/
 │   ├── css/
+│   │   └── styles.css
 │   └── js/
+│       └── main.js
 ├── public/
+│   ├── ProfessionalHeadshot.png
+│   ├── Theron Papillion Resume-2.pdf
+│   ├── Theron Papillion Resume-3.pdf
+│   ├── favicon.png
+│   ├── image.png
 │   ├── lumi-pos-system/
 │   ├── UH-marketplace-ecomm/
-│   ├── pup-central/
-│   ├── ProfessionalHeadshot.png
-│   └── image.png
-├── favicon.png
+│   └── pup-central/
 ├── index.html
 ├── package.json
 └── vercel.json
@@ -78,7 +82,7 @@ Main places to update:
 - [index.html](/Users/tjp/Documents/CompSci%20VSCode/Personal_Portfolio/index.html:1) for most of the page structure and content
 - `assets/css/styles.css` for styling
 - `assets/js/main.js` for gallery and interaction behavior
-- `public/` for screenshots, logos, and project media
+- `public/` for screenshots, logos, resumes, the favicon, and project media
 
 ## Featured Projects
 
