@@ -215,6 +215,18 @@
           "public/lumi-pos-system/reports.png"
         ]
       },
+      "cougarai": {
+        title: "CougarAI Website",
+        label: "Organization Platform",
+        description: "A full-stack organization platform for CougarAI, with member accounts, event and communication tools, and administrative workflows for a community of 200+ active users.",
+        images: [
+          "public/CougarAI/Homepage%201.jpeg",
+          "public/CougarAI/Login%202.jpeg",
+          "public/CougarAI/User%20Dash%203.jpeg",
+          "public/CougarAI/Admin%20Dash%204.jpeg",
+          "public/CougarAI/Calendar%205.jpeg"
+        ]
+      },
       "ecommerce-store": {
         title: "UH Marketplace",
         label: "Campus Marketplace Gallery",
@@ -236,46 +248,6 @@
           "public/pup-central/oop-architecture.svg",
           "public/pup-central/save-load.svg",
           "public/pup-central/engineering-summary.svg"
-        ]
-      },
-      "barbershop-booking": {
-        title: "Barbershop Booking",
-        label: "Web App Gallery",
-        description: "Use this gallery for booking steps, service cards, barber profiles, and confirmation screens.",
-        images: [
-          "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1503951458645-643d53bfd90f?auto=format&fit=crop&w=1200&q=80"
-        ]
-      },
-      "portfolio-system": {
-        title: "Portfolio System",
-        label: "Interface Gallery",
-        description: "Use this gallery for hero concepts, mobile views, section designs, and final polished layouts.",
-        images: [
-          "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
-        ]
-      },
-      "operational-insights": {
-        title: "Operational Insights",
-        label: "Data Gallery",
-        description: "Use this gallery for KPI widgets, trend charts, table states, and reporting dashboards.",
-        images: [
-          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
-        ]
-      },
-      "api-integration": {
-        title: "API Integration",
-        label: "Engineering Gallery",
-        description: "Use this gallery for loading states, API-driven screens, system diagrams, and connected UI flows.",
-        images: [
-          "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     };
@@ -382,7 +354,12 @@
 
     const bindGalleryTriggers = (scope = document) => {
       scope.querySelectorAll(".gallery-trigger").forEach((button) => {
-        button.addEventListener("click", () => openGallery(button.dataset.project));
+        button.addEventListener("click", () => {
+          if (allProjectsModal?.classList.contains("open")) {
+            closeAllProjects();
+          }
+          openGallery(button.dataset.project);
+        });
       });
     };
 
@@ -440,7 +417,12 @@
         card.classList.remove("reveal", "delay-1", "delay-2", "delay-3");
         card.classList.add("visible");
       });
-      allProjectsGrid.append(...Array.from(clonedProjects.children));
+      const projectCards = Array.from(clonedProjects.children).sort((firstCard, secondCard) => {
+        const firstIndex = Number(firstCard.querySelector(".project-index")?.textContent.match(/^\d+/)?.[0] || 0);
+        const secondIndex = Number(secondCard.querySelector(".project-index")?.textContent.match(/^\d+/)?.[0] || 0);
+        return firstIndex - secondIndex;
+      });
+      allProjectsGrid.append(...projectCards);
       bindGalleryTriggers(allProjectsGrid);
     }
 

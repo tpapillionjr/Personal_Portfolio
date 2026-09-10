@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css?v=12">
 </head>
 <body>
   <div class="page-backdrop" aria-hidden="true">
@@ -156,10 +156,35 @@
             </div>
           </article>
 
-          <article class="project-card featured reveal delay-2" data-project="ecommerce-store">
+          <article class="project-card featured reveal delay-2" data-project="cougarai">
+            <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/CougarAI/Homepage%201.jpeg'); background-size: cover; background-position: center top;"></div>
+            <div class="card-top">
+              <span class="project-index">03 / CougarAI Website</span>
+              <span>Organization Platform</span>
+            </div>
+            <h3>A full-stack member platform for CougarAI, built around events, communication, and community operations.</h3>
+            <p>
+              A responsive website and internal toolset serving 200+ active members, with account flows, events, member tools, and administrative workflows.
+            </p>
+            <div class="tag-row" style="margin-top: 1rem;">
+              <span class="tag">TypeScript</span>
+              <span class="tag">React</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Flask</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <div class="project-actions project-actions--split">
+              <button class="ghost-button gallery-trigger" type="button" data-project="cougarai">Open Gallery</button>
+              <div class="project-link-stack">
+                <a class="card-link" href="https://cougarai.org" target="_blank" rel="noreferrer">Visit Live Site <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal is-hidden" data-project="ecommerce-store">
             <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/UH-marketplace-ecomm/home.jpeg'); background-size: cover; background-position: center top;"></div>
             <div class="card-top">
-              <span class="project-index">03 / UH Marketplace</span>
+              <span class="project-index">05 / UH Marketplace</span>
               <span>Campus Resource Exchange</span>
             </div>
             <h3>A University of Houston marketplace for student-shared resources, tutoring, tools, and campus opportunities.</h3>
@@ -178,8 +203,8 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-3" data-project="pup-central">
-            <div class="project-visual project-visual--clean project-visual--photo minimal" style="background-image: url('public/pup-central/cover.svg'); background-size: cover; background-position: center;"></div>
+          <article class="project-card featured reveal delay-3" data-project="pup-central">
+            <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/pup-central/cover.svg'); background-size: cover; background-position: center;"></div>
             <div class="card-top">
               <span class="project-index">04 / Pup Central</span>
               <span>C++ Game</span>
@@ -200,69 +225,9 @@
             </div>
           </article>
 
-          <article class="project-card reveal delay-1 is-hidden" data-project="barbershop-booking">
-            <div class="project-visual project-visual--clean minimal alt"></div>
-            <div class="card-top">
-              <span class="project-index">04 / Web App</span>
-              <span>Barbershop Booking</span>
-            </div>
-            <h3>Service discovery and booking experience with a refined brand feel.</h3>
-            <p>
-              A multi-page frontend and backend booking system designed to keep the user path simple while preserving a premium visual identity.
-            </p>
-            <div class="project-actions">
-              <button class="ghost-button gallery-trigger" type="button" data-project="barbershop-booking">Open Gallery</button>
-              <a class="card-link" href="#contact">View case study path <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="project-card reveal delay-2 is-hidden" data-project="portfolio-system">
-            <div class="project-visual project-visual--clean minimal"></div>
-            <div class="card-top">
-              <span class="project-index">05 / Interface</span>
-              <span>Portfolio System</span>
-            </div>
-            <h3>Single-page portfolio with layered gradients, glass panels, and reveal motion.</h3>
-            <p>
-              Designed to feel technical without becoming sterile, using a code-inspired layout, animated surfaces, and readable content hierarchy.
-            </p>
-            <div class="project-actions">
-              <button class="ghost-button gallery-trigger" type="button" data-project="portfolio-system">Open Gallery</button>
-              <a class="card-link" href="#skills">See the stack <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="project-card reveal delay-3 is-hidden" data-project="operational-insights">
-            <div class="project-visual project-visual--clean minimal alt"></div>
-            <div class="card-top">
-              <span class="project-index">06 / Data</span>
-              <span>Operational Insights</span>
-            </div>
-            <h3>Dashboards and metrics views that turn backend data into decisions.</h3>
-            <p>
-              Built to present trends, status indicators, and activity summaries in a format that stays understandable under real usage.
-            </p>
-            <div class="project-actions">
-              <button class="ghost-button gallery-trigger" type="button" data-project="operational-insights">Open Gallery</button>
-              <a class="card-link" href="#contact">See details <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="project-card reveal is-hidden" data-project="api-integration">
-            <div class="project-visual project-visual--clean minimal"></div>
-            <div class="card-top">
-              <span class="project-index">07 / Engineering</span>
-              <span>API Integration</span>
-            </div>
-            <h3>Connecting frontend experiences to real services with consistent data flow.</h3>
-            <p>
-              Focused on request handling, clean endpoints, structured responses, and resilient UI states when data changes.
-            </p>
-            <div class="project-actions">
-              <button class="ghost-button gallery-trigger" type="button" data-project="api-integration">Open Gallery</button>
-              <a class="card-link" href="#contact">Ask for details <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
+        </div>
+        <div class="projects-actions reveal">
+          <button class="ghost-button" id="open-all-projects" type="button">View All Projects <span aria-hidden="true">↗</span></button>
         </div>
       </div>
     </section>
@@ -518,6 +483,6 @@
     </div>
   </div>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=12"></script>
 </body>
 </html>
