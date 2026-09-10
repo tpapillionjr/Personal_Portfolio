@@ -33,7 +33,7 @@
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <a class="nav-resume" href="public/Theron%20Papillion%20Resume-5.pdf" target="_blank" rel="noreferrer" aria-label="View resume">Resume</a>
+        <a class="nav-resume" href="public/Theron%20Papillion%20Internship%20Resume.pdf" target="_blank" rel="noreferrer" aria-label="View resume">Resume</a>
       </nav>
     </div>
   </header>
@@ -88,7 +88,7 @@
                   <path d="M4.98 3.5A2.48 2.48 0 1 0 5 8.46a2.48 2.48 0 0 0-.02-4.96ZM3 9h4v12H3V9Zm7 0h3.83v1.64h.05c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.66 4.8 6.12V21h-4v-5.59c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95V21h-4V9Z"/>
                 </svg>
               </a>
-              <a class="contact-resume" href="public/Theron%20Papillion%20Resume-5.pdf" target="_blank" rel="noreferrer" aria-label="View resume">Resume</a>
+              <a class="contact-resume" href="public/Theron%20Papillion%20Internship%20Resume.pdf" target="_blank" rel="noreferrer" aria-label="View resume">Resume</a>
             </div>
           </article>
         </div>
@@ -104,10 +104,36 @@
         </div>
 
         <div class="projects-grid" id="projects-grid">
-          <article class="project-card featured reveal" data-project="pos-system">
+          <article class="project-card featured reveal" data-project="prepbot">
+            <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/PrepBot/Landing%20Page%201.png'); background-size: cover; background-position: center top;"></div>
+            <div class="card-top">
+              <span class="project-index">01 / PrepBot</span>
+              <span>AI Interview Platform</span>
+            </div>
+            <h3>AI-powered interview practice that turns resumes and job descriptions into targeted mock interviews and feedback.</h3>
+            <p>
+              A full-stack platform that generates role-specific interview sessions and tailored performance reports, with secure accounts and subscription access.
+            </p>
+            <div class="tag-row" style="margin-top: 1rem;">
+              <span class="tag">Next.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Express</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Stripe</span>
+            </div>
+            <div class="project-actions project-actions--split">
+              <button class="ghost-button gallery-trigger" type="button" data-project="prepbot">Open Gallery</button>
+              <div class="project-link-stack">
+                <a class="card-link" href="https://prepbotapp.com" target="_blank" rel="noreferrer">Visit Live Site <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card featured reveal delay-1" data-project="pos-system">
             <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/lumi-pos-system/home.jpeg'); background-size: cover; background-position: center top;"></div>
             <div class="card-top">
-              <span class="project-index">01 / Lumi POS System</span>
+              <span class="project-index">02 / Lumi POS System</span>
               <span>Full Stack Platform</span>
             </div>
             <h3>Point-of-sale workflow with operations, ordering, and admin tools in one system.</h3>
@@ -130,10 +156,10 @@
             </div>
           </article>
 
-          <article class="project-card featured reveal delay-1" data-project="ecommerce-store">
+          <article class="project-card featured reveal delay-2" data-project="ecommerce-store">
             <div class="project-visual project-visual--clean project-visual--photo project-visual--large" style="background-image: url('public/UH-marketplace-ecomm/home.jpeg'); background-size: cover; background-position: center top;"></div>
             <div class="card-top">
-              <span class="project-index">02 / UH Marketplace</span>
+              <span class="project-index">03 / UH Marketplace</span>
               <span>Campus Resource Exchange</span>
             </div>
             <h3>A University of Houston marketplace for student-shared resources, tutoring, tools, and campus opportunities.</h3>
@@ -152,10 +178,10 @@
             </div>
           </article>
 
-          <article class="project-card reveal" data-project="pup-central">
+          <article class="project-card reveal delay-3" data-project="pup-central">
             <div class="project-visual project-visual--clean project-visual--photo minimal" style="background-image: url('public/pup-central/cover.svg'); background-size: cover; background-position: center;"></div>
             <div class="card-top">
-              <span class="project-index">03 / Pup Central</span>
+              <span class="project-index">04 / Pup Central</span>
               <span>C++ Game</span>
             </div>
             <h3>A C++ game project built around gameplay systems, logic, and a memorable concept.</h3>
@@ -319,6 +345,26 @@
             <h3>Vite</h3>
           </article>
           <article class="skill-card reveal">
+            <div class="skill-icon"><i class="devicon-flask-original" aria-hidden="true"></i></div>
+            <h3>Flask</h3>
+          </article>
+          <article class="skill-card reveal delay-1">
+            <div class="skill-icon"><i class="devicon-supabase-plain colored" aria-hidden="true"></i></div>
+            <h3>Supabase</h3>
+          </article>
+          <article class="skill-card reveal delay-2">
+            <div class="skill-icon">
+              <img class="skill-icon__image" src="public/brand/openai.svg" alt="" aria-hidden="true">
+            </div>
+            <h3>OpenAI</h3>
+          </article>
+          <article class="skill-card reveal delay-3">
+            <div class="skill-icon">
+              <img class="skill-icon__image" src="public/brand/stripe.svg" alt="" aria-hidden="true">
+            </div>
+            <h3>Stripe</h3>
+          </article>
+          <article class="skill-card reveal">
             <div class="skill-icon"><i class="devicon-mysql-plain colored" aria-hidden="true"></i></div>
             <h3>MySQL</h3>
           </article>
@@ -363,7 +409,9 @@
             <h3>SQL</h3>
           </article>
           <article class="skill-card reveal delay-3">
-            <div class="skill-icon">CLI</div>
+            <div class="skill-icon">
+              <img class="skill-icon__image" src="public/brand/chatgpt.svg" alt="" aria-hidden="true">
+            </div>
             <h3>Codex CLI</h3>
           </article>
         </div>

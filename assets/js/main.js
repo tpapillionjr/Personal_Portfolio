@@ -188,6 +188,19 @@
     }
 
     const projectGalleries = {
+      "prepbot": {
+        title: "PrepBot",
+        label: "AI Interview Platform",
+        description: "PrepBot creates role-specific mock interviews from a resume and job description, then delivers tailored feedback reports to help candidates prepare with confidence.",
+        images: [
+          "public/PrepBot/Landing%20Page%201.png",
+          "public/PrepBot/Simulator%20Set%20Up%202.png",
+          "public/PrepBot/Active%20Interview%203.png",
+          "public/PrepBot/Report%204.png",
+          "public/PrepBot/Settings%205.png",
+          "public/PrepBot/Pricing%206.png"
+        ]
+      },
       "pos-system": {
         title: "POS System",
         label: "Full Stack Gallery",
